@@ -1,0 +1,1687 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "HII",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "I am fine",
+        "i am doing good"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag":"haal-chal",
+      "patterns":[
+        "How are you ?"
+       , "how are you doing " 
+      ],
+      "responses":["I am Fine How are You ?",
+    "I am good , How are you ?",
+    "i am doing good , what about you ?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Good bye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell Wearable items like shoes , clothes etc and also items like bags and trolleys",
+        "We have Wearable items like shoes , clothes etc and also items like bags and trolleys" 
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "Do you accept online payments ?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paytm",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "When will it be Delivered"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag":"meme",
+      "patterns":[
+        "show me"
+      ],
+      "responses":[
+        "Sorry I dont have Images in my database"
+      ]
+    },
+    {
+      "tag": "product-1",
+      "patterns": [
+        "DKNY Unisex Black & Grey Printed Medium Trolley Bag",
+        "Black and grey printed medium trolley bag, secured with a TSA lockOne handle on the top and one on the side, has a trolley with a retractable handle on the top and four corner mounted inline skate wheelsOne main zip compartment, zip lining, two compression straps with click clasps, one zip compartment on the flap with three zip pocketsWarranty: 5 yearsWarranty provided by Brand Owner / Manufacturer"
+      ],
+      "responses": [
+        "Brand: DKNY, Price: INR 11745, Gender: Unisex, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-2",
+      "patterns": [
+        "EthnoVogue Women Beige & Grey Made to Measure Custom Made Kurta Set with Jacket",
+        "Beige & Grey made to measure kurta with churidar and\u00c2\u00a0dupattaBeige made to measure calf\u00c2\u00a0length kurta, has a V-neck, three-quarter sleeves, lightly padded on bust, flared hem, concealed zip closureGrey solid made to measure churidar, drawstring closureGrey net sequined dupatta, has printed tapingWhat is Made to Measure?Customised Kurta Set according to your Bust and Length. So please refer to the Size Chart to pick your perfect size.How to measure bust?Measure under your arms and around your chest to find your bust size in inchesHow to measure Kurta length?Measure from shoulder till barefoot to find kurta length in"
+      ],
+      "responses": [
+        "Brand: EthnoVogue, Price: INR 5810, Gender: Women, Color:  Beige"
+      ]
+    },
+    {
+      "tag": "product-3",
+      "patterns": [
+        "SPYKAR Women Pink Alexa Super Skinny Fit High-Rise Clean Look Stretchable Cropped Jeans",
+        "Pink coloured wash 5-pocket high-rise cropped jeans, clean look, no fade, has a button and zip closure, and waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: SPYKAR, Price: INR 899, Gender: Women, Color:  Pink"
+      ]
+    },
+    {
+      "tag": "product-4",
+      "patterns": [
+        "Bandhgala Suit", 
+        "Raymond Men Blue Self-Design Single-Breasted Bandhgala Suit",
+        "Blue self-design bandhgala suitBlue self-design bandhgala blazer, has a mandarin collar, single breasted with full button placket, long sleeves, three pockets, an attached lining and a double-vented back hemBlue self-design mid-rise trousers, has a zip fly with a button and a hook-and-bar closure, four pockets, a waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: Raymond, Price: INR 5599, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-5",
+      "patterns": [
+        "Parx Men Brown & Off-White Slim Fit Printed Casual Shirt",
+        "Brown and off-white printed casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 759, Gender: Men, Color:  White"
+      ]
+    },
+    {
+      "tag": "product-6",
+      "patterns": [
+        "SHOWOFF Men Brown Solid Slim Fit Regular Shorts",
+        "Brown solid low-rise regular shorts, has four pockets, a button closure"
+      ],
+      "responses": [
+        "Brand: SHOWOFF, Price: INR 791, Gender: Men, Color:  Brown"
+      ]
+    },
+    {
+      "tag": "product-7",
+      "patterns": [
+        "Parx Men Blue Slim Fit Checked Casual Shirt",
+        "Blue checked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 719, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-8",
+      "patterns": [
+        "SPYKAR Women Burgundy Alexa Super Skinny Fit High-Rise Clean Look Stretchable Ankle Jeans",
+        "Burgundy coloured wash 5-pocket high-rise jeans, clean look, no fade, has a button and zip closure, and waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: SPYKAR, Price: INR 899, Gender: Women, Color:  Burgundy"
+      ]
+    },
+    {
+      "tag": "product-9",
+      "patterns": [
+        "Parx Men Brown Tapered Fit Solid Regular Trousers",
+        "Brown solid regular trousers regular trousers"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 664, Gender: Men, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-10",
+      "patterns": [
+        "DKNY Unisex Black Large Trolley Bag",
+        "Black solid large trolley bag, secured with a TSA lockOne handle on the top and one on the side, has a trolley with a retractable handle on the top and four corner mounted inline skate wheelsOne main zip compartment, zip lining, two compression straps with click clasps and one zip pocketOne exterior zip pocketWarranty: 5 yearsWarranty provided by Brand Owner / Manufacturer"
+      ],
+      "responses": [
+        "Brand: DKNY, Price: INR 17360, Gender: Unisex, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-11",
+      "patterns": [
+        "Kenneth Cole Women Navy Blue Solid Backpack",
+        "Navy Blue backpackNon-Padded haul loop1 main compartment with zip closurePadded backZip PocketPadded shoulder strap: PaddedWater-resistance: No"
+      ],
+      "responses": [
+        "Brand: Kenneth Cole, Price: INR 2463, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-12",
+      "patterns": [
+        "Parx Men Green Printed Polo Collar T-shirt",
+        "Green printed T-shirt, has a polo collar, and short sleeves"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 629, Gender: Men, Color:  Green"
+      ]
+    },
+    {
+      "tag": "product-13",
+      "patterns": [
+        "Police Men To Be The King Eau De Toilette 125 ml",
+        "To Be The King Eau De Toilette\u00c2\u00a0"
+      ],
+      "responses": [
+        "Brand: Police, Price: INR 2695, Gender: Men, Color: "
+      ]
+    },
+    {
+      "tag": "product-14",
+      "patterns": [
+        "Vishudh Women Maroon Printed Kurta with Palazzos",
+        "Maroon printed kurta with palazzos Maroon straight calf length kurta, has a round neck, three-quarter sleeves, straight hem, side slitsMaroon  Printed palazzos, has elasticated waistband, slip-on closure"
+      ],
+      "responses": [
+        "Brand: Vishudh, Price: INR 892, Gender: Women, Color:  Maroon"
+      ]
+    },
+    {
+      "tag": "product-15",
+      "patterns": [
+        "Parx Men Red Slim Fit Checked Casual Shirt",
+        "Red checked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 752, Gender: Men, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-16",
+      "patterns": [
+        "Being Human Clothing Navy Printed Casual Slim Shirt",
+        "Navy blue printed\u00c2\u00a0casual shirt, has a spread collar, a full button placket, two pockets,\u00c2\u00a0long sleeves, a curved hem"
+      ],
+      "responses": [
+        "Brand: Being Human, Price: INR 1079, Gender: Men, Color:  Navy"
+      ]
+    },
+    {
+      "tag": "product-17",
+      "patterns": [
+        "Homesake Gold-Toned & White Solid Handcrafted Table Lamp with Shade",
+        "Type: Handcrafted Table Lamp with ShadeColour: Gold-Toned and whitePattern: SolidShape: FrustumShade material: FabricBase material: AluminiumBulb Holder Type: E27Switch Type: Toggle ButtonComes with bulb"
+      ],
+      "responses": [
+        "Brand: Homesake, Price: INR 1620, Gender: Unisex, Color:  White"
+      ]
+    },
+    {
+      "tag": "product-18",
+      "patterns": [
+        "SEJ by Nisha Gupta Set of 6 Mustard & Blue Printed Table Placemats",
+        "Set content: 6 table mats Shape: Rectangle Colour: Mustard and blue Pattern: Printed Suitable For: 6 seater table Material: Cotton "
+      ],
+      "responses": [
+        "Brand: SEJ by Nisha Gupta, Price: INR 899, Gender: Unisex, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-19",
+      "patterns": [
+        "YAK YAK Men Camel Brown Solid Polo Collar T-shirt",
+        "Camel brown solid T-shirt, has polo collar, short sleeves"
+      ],
+      "responses": [
+        "Brand: YAK YAK, Price: INR 599, Gender: Men, Color:  Brown"
+      ]
+    },
+    {
+      "tag": "product-20",
+      "patterns": [
+        "PARFAIT Plus Size Black Striped Non-Wired Lightly Padded T-shirt Bra P5252",
+        "Black striped medium-coverage T-shirt braLightly Padded and Non-Wired seamless cupsRegular straps and back closureBack style: RegularFeature: All Day Comfort"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 1749, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-21",
+      "patterns": [
+        "Michael Kors Women Sexy Amber Eau de Parfum 100ml",
+        "Michael Kors Sexy Amber Eau de ParfumFragrance Notes:Top notes - amberHeart notes - sandalwoodBase - white flowers"
+      ],
+      "responses": [
+        "Brand: Michael Kors, Price: INR 7920, Gender: Women, Color: "
+      ]
+    },
+    {
+      "tag": "product-22",
+      "patterns": [
+        "HIGHLANDER Men Mustard & Black Slim Fit Checked Casual Shirt",
+        "Mustard and black checked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: HIGHLANDER, Price: INR 699, Gender: Men, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-23",
+      "patterns": [
+        "SEJ by Nisha Gupta Set of 6 Multicoloured Printed Table Placemats",
+        "Set content: 6 table matsShape: RectangleColour: MulticolouredPattern: PrintedSuitable For: 6 seater tableMaterial: Cotton"
+      ],
+      "responses": [
+        "Brand: SEJ by Nisha Gupta, Price: INR 899, Gender: Unisex, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-24",
+      "patterns": [
+        "SPYKAR Women Blue Adora Skinny Fit Mid-Rise Clean Look Stretchable Ankle Jeans",
+        "Blue medium wash 5-pocket mid-rise jeans, clean look, heavy fade, has a button and zip closure, and waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: SPYKAR, Price: INR 1199, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-25",
+      "patterns": [
+        "JEWEL JUNCTION Gold-Toned Square Cufflinks",
+        "A pair of gold-toned square solid cufflinks"
+      ],
+      "responses": [
+        "Brand: JEWEL JUNCTION, Price: INR 539, Gender: Men, Color:  Gold"
+      ]
+    },
+    {
+      "tag": "product-26",
+      "patterns": [
+        "ID Men Tan Brown Fisherman Leather Sandals",
+        "A pair of tan brown fisherman sandalsLeather upper with velcro closureCushioned footbedPatterned synthetic outsoleWarranty: 3 monthsWarranty provided by brand/manufacturer"
+      ],
+      "responses": [
+        "Brand: ID, Price: INR 2385, Gender: Men, Color:  Brown"
+      ]
+    },
+    {
+      "tag": "product-27",
+      "patterns": [
+        "Story@home Multicoloured Geometric 210TC Cotton 1 King Bedsheet with 2 Pillow Covers",
+        "Set content: 1 King bedsheet with 2 pillow coversQuality: Fine Thread count: 210Colour: MulticolouredPattern: Geometric"
+      ],
+      "responses": [
+        "Brand: Story@home, Price: INR 1199, Gender: Unisex, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-28",
+      "patterns": [
+        "Raymond Men Blue Slim Fit Printed Formal Shirt",
+        "Blue printed formal shirt, has a spread collar, long sleeves, button placket,  straight hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Raymond, Price: INR 1079, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-29",
+      "patterns": [
+        "Gini and Jony Boys Navy Blue Regular Fit Solid Casual Shirt",
+        "Navy Blue solid casual shirt, has a spread collar, long sleeves, button placket, and curved hem"
+      ],
+      "responses": [
+        "Brand: Gini and Jony, Price: INR 699, Gender: Boys, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-30",
+      "patterns": [
+        "SEJ by Nisha Gupta Set of 6 Printed Table Placemats",
+        "Set content: 6 table mats Shape: Rectangle Colour: Pink and blue Pattern: Printed Suitable For: 6 seater table Material: Cotton "
+      ],
+      "responses": [
+        "Brand: SEJ by Nisha Gupta, Price: INR 899, Gender: Unisex, Color: "
+      ]
+    },
+    {
+      "tag": "product-31",
+      "patterns": [
+        "Sera Women Blue Printed Kurta with Palazzos",
+        "Blue printed kurta with palazzos Blue A-line calf length kurta, has a round neck, short sleeves, flared hem Blue solid palazzos, button closure"
+      ],
+      "responses": [
+        "Brand: Sera, Price: INR 1437, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-32",
+      "patterns": [
+        "AccessHer Women Gold-Toned & Pink Gold-Plated AD-Studded Maang Tikka",
+        "Gold-toned and pink gold-plated maang tikka with arificial stoned and beads studded, gold-platedSecured with a fish-hook ear wire"
+      ],
+      "responses": [
+        "Brand: AccessHer, Price: INR 979, Gender: Women, Color:  Pink"
+      ]
+    },
+    {
+      "tag": "product-33",
+      "patterns": [
+        "Parx Men Blue Slim Fit Printed Casual Shirt",
+        "Blue printed casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 779, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-34",
+      "patterns": [
+        "Alcis Women Yellow & Blue Colorblocked Tights",
+        "Alcis Women  Yellow & Blue Colorblocked Tights, three-fouth length, elasticated waist"
+      ],
+      "responses": [
+        "Brand: Alcis, Price: INR 749, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-35",
+      "patterns": [
+        "ID Men Brown Leather Formal Slip-Ons",
+        "A pair of brown square-toed formal slip-on shoes, has elasticated gussets on both sidesLeather upper, has a textured detailCushioned footbedTextured TPR outsoleWarranty: 3 months against manufacturing defect onlyWarranty provided by the brand owner / manufacturer"
+      ],
+      "responses": [
+        "Brand:sparx, Price: INR 956, Gender: Men, Color:  Brown"
+      ]
+    },
+    {
+      "tag": "product-36",
+      "patterns": [
+        "Difference of Opinion Men Navy Blue Solid Round Neck T-shirt With Side Strip Detail",
+        "Navy Blue Solid T-shirt, has a round neck, long sleeves, has side stripes in the sleeves"
+      ],
+      "responses": [
+        "Brand: Difference of Opinion, Price: INR 499, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-37",
+      "patterns": [
+        "Parx Men Blue Slim Fit Checked Casual Shirt",
+        "Blue checked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 769, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-38",
+      "patterns": [
+        "Michael Kors Extreme Blue For Men Edt 70 ml",
+        "What it is:Extreme Blue For Men EdWhat it does:Masculine and sensuous at the same time is this 'Blue Eau De Toilette' from Michael Kors. Exuding unmatched freshness, this EDT is a must-have in your collection of fragrances. Available in a 70 ml pack, this EDT has top notes of bergamot, spicy pink pepper and invigorating cardamom. The heart notes are of juniper, cypress, nutty sesame and herbaceous sage, while the base notes include warm ambrox, musk and patchouli."
+      ],
+      "responses": [
+        "Brand: Michael Kors, Price: INR 4275, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-39",
+      "patterns": [
+        "Tokyo Talkies Women Off-White & Pink Floral Print Fit and Flare Dress",
+        "Off-White and pink printed woven fit and flare dress, has a round neck, three-quarter sleeves, concealed zip closure,, flared hem"
+      ],
+      "responses": [
+        "Brand: Tokyo Talkies, Price: INR 499, Gender: Women, Color:  White"
+      ]
+    },
+    {
+      "tag": "product-40",
+      "patterns": [
+        "ANNA SUI Women La Vie De Boheme EDT 75ml",
+        "ANNA SUI La Vie De Boheme Eau De ToiletteStrong perfumeLasts 2 to 3 hoursFresh FragranceTop notes: Turkish rose, sparkling pear, berries and pitahaya accordHeart notes: Red magnolia, peony, pink freesiaBase notes: dry woods, sandalwood, musk and black vanillaIt comes in a 75 ml bottle."
+      ],
+      "responses": [
+        "Brand: ANNA SUI, Price: INR 4600, Gender: Women, Color: "
+      ]
+    },
+    {
+      "tag": "product-41",
+      "patterns": [
+        "HIGHLANDER Men Navy Blue & Maroon Slim Fit Checked Casual Shirt",
+        "Navy Blue and maroon checked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: HIGHLANDER, Price: INR 699, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-42",
+      "patterns": [
+        "her by invictus Women Brown Solid Cushioned Mules",
+        "A pair of pointed closed toe brown mules with comfort lining and foam cushioned footbed for your work-from-home needs. It has regular styling, and closed backSynthetic upperFoam Cushioned footbedTextured and patterned outsole"
+      ],
+      "responses": [
+        "Brand: her by invictus, Price: INR 1044, Gender: Women, Color:  Brown"
+      ]
+    },
+    {
+      "tag": "product-43",
+      "patterns": [
+        "ID Men Beige Leather Derbys",
+        "A pair of round-toe beige derbys, has regular styling, lace-up detailLeather upperCushioned footbedTextured and patterned outsoleWarranty: 3 monthsWarranty provided by brand/manufacturer"
+      ],
+      "responses": [
+        "Brand: ID, Price: INR 2685, Gender: Men, Color:  Beige"
+      ]
+    },
+    {
+      "tag": "product-44",
+      "patterns": [
+        "SPYKAR Women Blue Adora Skinny Fit Mid-Rise Low Distress Ankle-length Stretchable Jeans",
+        "Blue medium wash 5-pocket mid-rise ankle-length jeans, low distress, heavy fade, has a button and zip closure, and waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: SPYKAR, Price: INR 1124, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-45",
+      "patterns": [
+        "SPYKAR Women Blue Adora Skinny Fit Mid-Rise Clean Look Ankle-Length Stretchable Jeans",
+        "Blue dark wash 5-pocket mid-rise ankle-length jeans, clean look, light fade, has a button and zip closure, and waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: SPYKAR, Price: INR 989, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-46",
+      "patterns": [
+        "Soie Nude-Coloured Solid Non-Wired Non Padded Maternity Bra CB-331NUDE",
+        "Nude-Coloured solid full-coverage Maternity bra Non Padded and Non-Wired seamless cups Regular straps and back closure Back style: Regular Feature: All Day Comfort"
+      ],
+      "responses": [
+        "Brand: Soie, Price: INR 750, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-47",
+      "patterns": [
+        "Lara Karen Women Black Solid Maxi Satin Skirt",
+        "Black solid woven maxi skirt, has a slip-on closure, flared hem"
+      ],
+      "responses": [
+        "Brand: Lara Karen, Price: INR 1999, Gender: Women, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-48",
+      "patterns": [
+        "Gini and Jony Girls Yellow Fit and Flare Embellished Dress",
+        "Yellow embellished woven fit and flare dress, has a round neck, short sleeves, zip closure, an attached lining, and flared hem"
+      ],
+      "responses": [
+        "Brand: Gini and Jony, Price: INR 1619, Gender: Girls, Color:  Yellow"
+      ]
+    },
+    {
+      "tag": "product-49",
+      "patterns": [
+        "Story@home Off-White & Blue Geometric 210TC Cotton 1 King Bedsheet with 2 Pillow Covers",
+        "Set content: 1 King bedsheet with 2 pillow coversQuality: FineThread count: 210Colour: Off-White and bluePattern: Geometric"
+      ],
+      "responses": [
+        "Brand: Story@home, Price: INR 1199, Gender: Unisex, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-50",
+      "patterns": [
+        "PARFAIT Plus Size Blue Solid Underwired Lightly Padded Plunge Bra 2801",
+        "Blue solid medium-coverage plunge bra with lace detailLightly padded and underwired seamless cupsRegular straps and back closureBack style: RegularFeature: All Day Comfort"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 1189, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-51",
+      "patterns": [
+        "Urban Dog Men Grey Solid Regular Fit Sports Shorts",
+        "Grey solid mid-rise sports shorts, has two pockets, a drawstring closure"
+      ],
+      "responses": [
+        "Brand: Urban Dog, Price: INR 399, Gender: Men, Color:  Grey"
+      ]
+    },
+    {
+      "tag": "product-52",
+      "patterns": [
+        "ahilya Sterling Silver Textured Bangle",
+        "Sterling silver textured bangle, has animal-shaped detail on the endsNote: This jewellery is handcrafted, therefore there might be slight variations from the image."
+      ],
+      "responses": [
+        "Brand: ahilya, Price: INR 9756, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-53",
+      "patterns": [
+        "PARFAIT Plus Size Blue Solid Underwired Lightly Padded T-shirt Bra P5441",
+        "Blue solid medium-coverage T-shirt braLightly padded and underwired seamless cupsRegular straps and back closureBack style: RegularFeature: All Day Comfort"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 1609, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-54",
+      "patterns": [
+        "VASTRAMAY Boys Navy Blue & Maroon Solid Kurta with Dhoti Pants & Jacket",
+        "Navy Blue and maroon solid kurta with dhoti pantsNavy Blue straight above knee kurta, has a mandarin collar, long sleeves, curved hemGold-toned solid dhoti pants, slip-on closureMaroon woven design nehru jacket, has a mandarin collar, sleeveless, one welt pocket"
+      ],
+      "responses": [
+        "Brand: VASTRAMAY, Price: INR 1469, Gender: Boys, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-55",
+      "patterns": [
+        "Difference of Opinion Men Grey Melange Printed Round Neck T-shirt",
+        "Grey printed T-shirt, has round neck, long sleeves"
+      ],
+      "responses": [
+        "Brand: Difference of Opinion, Price: INR 499, Gender: Men, Color:  Grey"
+      ]
+    },
+    {
+      "tag": "product-56",
+      "patterns": [
+        "Campus Sutra Men White & Blue Regular Fit Colourblocked Casual Shirt",
+        "White and blue colourblocked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Campus Sutra, Price: INR 479, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-57",
+      "patterns": [
+        "FIDO DIDO Men White Printed Round Neck T-shirt",
+        "White and black printed T-shirt,has round neck,short sleeves"
+      ],
+      "responses": [
+        "Brand: FIDO DIDO, Price: INR 449, Gender: Men, Color:  White"
+      ]
+    },
+    {
+      "tag": "product-58",
+      "patterns": [
+        "MIAH Decor Beige & Black Indian Art Printed Set of 4 Ceramic Bowls",
+        "Type: BowlsPattern: PrintedFinish: Matte Material: Ceramic"
+      ],
+      "responses": [
+        "Brand: MIAH Decor, Price: INR 1469, Gender: Unisex, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-59",
+      "patterns": [
+        "JEWEL JUNCTION Gold-Toned Geometric Cufflinks",
+        "A pair of gold-toned and blue geometric printed cufflinksComes in a signature JEWEL JUNCTION case"
+      ],
+      "responses": [
+        "Brand: JEWEL JUNCTION, Price: INR 539, Gender: Men, Color:  Gold"
+      ]
+    },
+    {
+      "tag": "product-60",
+      "patterns": [
+        "Vishudh Women Off-White & Green Floral Print A-Line Dress",
+        "Off-White and green printed woven A-line dress, has a mandarin collar, three-quarter sleeves, button closure,, flared hem"
+      ],
+      "responses": [
+        "Brand: Vishudh, Price: INR 1299, Gender: Women, Color:  Green"
+      ]
+    },
+    {
+      "tag": "product-61",
+      "patterns": [
+        "Urban Dog Men Grey Printed Regular Fit Sports Shorts",
+        "Grey printed mid-rise sports shorts, has two pockets, a drawstring closure"
+      ],
+      "responses": [
+        "Brand: Urban Dog, Price: INR 399, Gender: Men, Color:  Grey"
+      ]
+    },
+    {
+      "tag": "product-62",
+      "patterns": [
+        "PARFAIT Plus Size Women Navy Blue  White Solid Low-Rise Bikini Brief PP303",
+        "Navy blue and white solid low rise bikini briefs, has an inner elasticated waistband with lace detail, double layered gusset"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 499, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-63",
+      "patterns": [
+        "SEJ by Nisha Gupta Set of 6 Yellow & Blue Printed Table Placemats",
+        "Set content: 6 table mats Shape: Rectangle Colour: Yellow and bluePattern: Printed Suitable For: 6 seater table Material: Cotton "
+      ],
+      "responses": [
+        "Brand: SEJ by Nisha Gupta, Price: INR 899, Gender: Unisex, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-64",
+      "patterns": [
+        "ID Men Brown Leather Loafers",
+        "A pair of square toe brown loafers, has regular styling, slip-on detailLeather upperCushioned footbedTextured and patterned outsoleWarranty: 3 monthsWarranty provided by brand/manufacturer"
+      ],
+      "responses": [
+        "Brand: ID, Price: INR 1218, Gender: Men, Color:  Brown"
+      ]
+    },
+    {
+      "tag": "product-65",
+      "patterns": [
+        "PARFAIT Plus Size Red Solid Underwired Lightly Padded T-shirt Bra P5391",
+        "Red solid medium-coverage T-shirt bra Lightly Padded and Underwired seamless cups Regular straps and back closure Back style: Regular Feature: All Day Comfort"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 1609, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-66",
+      "patterns": [
+        "SPYKAR Women Blue Adora Skinny Fit Mid-Rise Mildly Distressed Stretchable Cropped Jeans",
+        "Blue medium wash 5-pocket mid-rise cropped jeans, mildly distressed, light fade, has a button and zip closure, and waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: SPYKAR, Price: INR 1214, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-67",
+      "patterns": [
+        "SPYKAR Women Blue Adora Skinny Fit Mid-Rise Clean Look Stretchable Cropped Jeans",
+        "Blue dark wash 5-pocket mid-rise cropped jeans, clean look, no fade, has a button and zip closure, and waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: SPYKAR, Price: INR 899, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-68",
+      "patterns": [
+        "Raymond Men Blue Regular Fit Self Design Formal Shirt",
+        "Blue self-design formal shirt, has a spread collar, long sleeves, button placket,  straight hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Raymond, Price: INR 1154, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-69",
+      "patterns": [
+        "BuckleUp Women Multicoloured Printed Belt",
+        "Multicoloured printed beltReversible: NoStretchable: NoSecured with a tangWarranty: 1 monthWarranty provided by brand/manufacturer"
+      ],
+      "responses": [
+        "Brand: BuckleUp, Price: INR 449, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-70",
+      "patterns": [
+        "Peter England Men Black Briefs PIWBK9146012",
+        "A pair of black briefs, has an elasticated waistband and a panelled front with a double-layered contoured pouch"
+      ],
+      "responses": [
+        "Brand: Peter England, Price: INR 266, Gender: Men, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-71",
+      "patterns": [
+        "AIGNER Men Platinum Eau De Toilette Perfume 100 ml",
+        "NotesTop notes: Mandarin, bergamot, ozonic, orange, tamarind, cardamom, black pepper, clove tones and crisp mint leavesHeart notes: Spicy woody notesBase notes: Crystal amber, vanilla guaiacwood, olibanum, patchouli, sandalwood, moos"
+      ],
+      "responses": [
+        "Brand: AIGNER, Price: INR 3640, Gender: Men, Color:  Platinum"
+      ]
+    },
+    {
+      "tag": "product-72",
+      "patterns": [
+        "Gini and Jony Girls Blue Solid Jacket",
+        "Blue solid jacket, has a spread collar, 4 pockets, button closure, long sleeves, straight hem"
+      ],
+      "responses": [
+        "Brand: Gini and Jony, Price: INR 1189, Gender: Girls, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-73",
+      "patterns": [
+        "Homesake Gold-Toned Solid Handcrafted Table Lamp with Shade",
+        "Type: Handcrafted Table Lamp with ShadeColour: Gold-TonedPattern: SolidShape: FrustumShade material: FabricBase material: AluminiumSwitch Type: Toggle Button"
+      ],
+      "responses": [
+        "Brand: Homesake, Price: INR 1836, Gender: Unisex, Color:  Gold"
+      ]
+    },
+    {
+      "tag": "product-74",
+      "patterns": [
+        "Campus Sutra Men Black Solid Round Neck Faux Leather T-shirt",
+        "Black solid T-shirt, has a round neck, and long sleeves with faux leather detail"
+      ],
+      "responses": [
+        "Brand: Campus Sutra, Price: INR 699, Gender: Men, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-75",
+      "patterns": [
+        "MIAH Decor Set of 3 Blue & Off-White Handpainted Kitchen Storage Jars with Lids",
+        "Type:  Set of 3 Blue & Off-White Handpainted Kitchen Storage Jars with LidsPattern: PrintedFinish: GlossyMaterial: Ceramic"
+      ],
+      "responses": [
+        "Brand: MIAH Decor, Price: INR 3116, Gender: Unisex, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-76",
+      "patterns": [
+        "Gini and Jony Girls Peach-Coloured Floral Embroidered Fit & Flare Dress",
+        "Peach-Coloured net embroidered woven fit and flare dress with embellished detail, has a round neck, short sleeves, concealed zip closure, tie-up on the back, attached lining and flared hem"
+      ],
+      "responses": [
+        "Brand: Gini and Jony, Price: INR 1484, Gender: Girls, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-77",
+      "patterns": [
+        "SEJ by Nisha Gupta Blue & Green Printed Wooden Open Dry Bin",
+        "Set content: 1 open dry binColour: Blue and greenPattern: Floral printShape: Rectangular"
+      ],
+      "responses": [
+        "Brand: SEJ by Nisha Gupta, Price: INR 999, Gender: Unisex, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-78",
+      "patterns": [
+        "Parx Men Blue Slim Fit Checked Casual Shirt",
+        "Blue checked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 859, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-79",
+      "patterns": [
+        "PARFAIT Plus Size Black Lace Non-Wired Non Padded Everyday Bra P5482",
+        "Black lace full-coverage everyday braNon padded and non-wired cut and sew cupsRegular straps and back closureBack style: RegularFeature: Side Bone"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 1679, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-80",
+      "patterns": [
+        "Parx Men Blue Slim Fit Checked Casual Shirt",
+        "Blue checked casual shirt, has a spread collar, short sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 939, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-81",
+      "patterns": [
+        "Lady Lyka Women Pack of 2 Beginners Bras TEENAGER-WHT-BLK",
+        "Black and white solid medium-coverage beginners brasNon Padded and Non-Wired cut and sew cupsRegular straps and back closureBack style: RegularFeature: All Day Comfort"
+      ],
+      "responses": [
+        "Brand: Lady Lyka, Price: INR 425, Gender: Women, Color: "
+      ]
+    },
+    {
+      "tag": "product-82",
+      "patterns": [
+        "SEJ by Nisha Gupta Set of 4 Multicoloured Printed Table Placemats",
+        "Set content: 4 table matsShape: RectangleColour:multicolouredPattern: PrintedSuitable For: 4 seater tableMaterial: Cotton"
+      ],
+      "responses": [
+        "Brand: SEJ by Nisha Gupta, Price: INR 799, Gender: Unisex, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-83",
+      "patterns": [
+        "her by invictus Women Red Cushioned Loafers",
+        "A pair of round closed toe red loafers with comfort lining and foam cushioned footbed for your work-from-home needs. It has regular styling, and closed backSynthetic upperFoam Cushioned footbedTextured and patterned outsole"
+      ],
+      "responses": [
+        "Brand: her by invictus, Price: INR 1299, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-84",
+      "patterns": [
+        "JEWEL JUNCTION Gold-Toned & Black Round Cufflinks",
+        "A pair of gold-toned and black round solid cufflinks"
+      ],
+      "responses": [
+        "Brand: JEWEL JUNCTION, Price: INR 539, Gender: Men, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-85",
+      "patterns": [
+        "PARFAIT Plus Size Black Solid Non-Wired Non Padded Sports Bra P5542",
+        "Black solid full-coverage Sports bra with mesh detailNon Padded and Non-Wired cut and sew cupsRegular straps and back closureBack style: RegularFeature: All Day Comfort"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 1749, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-86",
+      "patterns": [
+        "her by invictus Women Tan Brown Cushioned Slip-on Shoes",
+        "A pair of pointed closed toe tan brown slip-on shoes with cushioned footbed and comfortable lining, has regular styling, and closed backSynthetic upperFoam Cushioned footbedTextured and patterned outsole"
+      ],
+      "responses": [
+        "Brand: her by invictus, Price: INR 949, Gender: Women, Color:  Brown"
+      ]
+    },
+    {
+      "tag": "product-87",
+      "patterns": [
+        "DKNY Unisex Black Medium Trolley Bag",
+        "Black solid medium trolley bag, secured with a TSA lockOne handle on the top and one on the side, has a trolley with a retractable handle on the top and four corner mounted inline skate wheelsOne main zip compartment, zip lining, two compression straps with click clasps and one zip pocketOne exterior zip pocketWarranty: 5 yearsWarranty provided by Brand Owner / Manufacturer"
+      ],
+      "responses": [
+        "Brand: DKNY, Price: INR 13320, Gender: Unisex, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-88",
+      "patterns": [
+        "Parx Men Yellow & Off-White Slim Fit Checked Casual Shirt",
+        "Yellow and off-white checked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 647, Gender: Men, Color:  Yellow"
+      ]
+    },
+    {
+      "tag": "product-89",
+      "patterns": [
+        "Story@home Mauve & Grey Geometric 210 TC Cotton 1 King Bedsheet with 2 Pillow Covers",
+        "Set content: 1 King bedsheet with 2 pillow coversQuality: FineThread count: 210Colour: Mauve and GreyPattern: Geometric"
+      ],
+      "responses": [
+        "Brand: Story@home, Price: INR 1799, Gender: Unisex, Color:  Grey"
+      ]
+    },
+    {
+      "tag": "product-90",
+      "patterns": [
+        "Parx Men Blue & Off-White Slim Fit Printed Casual Shirt",
+        "Blue and off-white printed casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 779, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-91",
+      "patterns": [
+        "her by invictus Women Green Cushioned Slip-Ons",
+        "A pair of pointed toe green slip-ons with cushioned footbed, has regular styling, slip-on detailSynthetic Suede upperFoam cushioned footbedTextured and patterned outsole"
+      ],
+      "responses": [
+        "Brand: her by invictus, Price: INR 1999, Gender: Women, Color:  Green"
+      ]
+    },
+    {
+      "tag": "product-92",
+      "patterns": [
+        "Park Avenue Women Blue Skinny Fit Mid-Rise Clean Look Jeans",
+        "Blue dark wash five-pocket mid-rise jeans, clean look with light fade, has a button and zip closure, waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: Park Avenue, Price: INR 569, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-93",
+      "patterns": [
+        "Roadster Women Black Textured Open Toe Flats",
+        "A pair of black open-toed flats, has regular styling, no back strap detailSynthetic upperCushioned footbedTextured and patterned outsoleWarranty: 1 monthWarranty provided by brand/manufacturer"
+      ],
+      "responses": [
+        "Brand: Roadster, Price: INR 1699, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-94",
+      "patterns": [
+        "her by invictus Women Black Textured Cushioned Flats",
+        "A pair of black pointed toe cushioned flats, has regular styling, slip-on detailSynthetic upperCushioned footbedTextured and patterned outsole"
+      ],
+      "responses": [
+        "Brand: her by invictus, Price: INR 944, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-95",
+      "patterns": [
+        "U.S. Polo Assn. Denim Co. Men Navy Blue Solid Bomber Jacket",
+        "Navy solid bomber jacket, has a stand collar, 2 pockets, zip closure, long sleeves, straight hem, and attached lining with 3 inner pockets"
+      ],
+      "responses": [
+        "Brand: U.S. Polo Assn. Denim Co., Price: INR 3499, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-96",
+      "patterns": [
+        "SEJ by Nisha Gupta Set of 6 Pink Printed Table Placemats",
+        "Set content: 6 table mats Shape: Rectangle Colour: Pink and multicoloured Pattern: Printed Suitable For: 6 seater table Material: Cotton "
+      ],
+      "responses": [
+        "Brand: SEJ by Nisha Gupta, Price: INR 899, Gender: Unisex, Color:  Pink"
+      ]
+    },
+    {
+      "tag": "product-97",
+      "patterns": [
+        "Gini and Jony Girls Navy Blue Washed Denim Jacket",
+        "Navy Blue washed denim jacket, has a spread collar, 4 pockets, button closure, long sleeves, straight hem, and unlined"
+      ],
+      "responses": [
+        "Brand: Gini and Jony, Price: INR 1329, Gender: Girls, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-98",
+      "patterns": [
+        "Sweet Dreams Men Navy Blue Solid Straight-Fit Trackpants",
+        "Navy blue solid straight-fit trackpant, has an elasticated waistband with a drawstring fastening, two pockets"
+      ],
+      "responses": [
+        "Brand: Sweet Dreams, Price: INR 699, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-99",
+      "patterns": [
+        "Kazo Women Yellow Floral Print Shirt Dress",
+        "Yellow printed woven shirt dress, has a mandarin collar, long sleeves, button closure,, tulip hem"
+      ],
+      "responses": [
+        "Brand: Kazo, Price: INR 1345, Gender: Women, Color:  Yellow"
+      ]
+    },
+    {
+      "tag": "product-100",
+      "patterns": [
+        "Gini and Jony Boys Red & Grey Melange Solid Varsity Jacket with Applique Detail",
+        "Red and Grey Melange solid varsity jacket, has a stand collar, snap button closure, long sleeves, straight hem, unlined"
+      ],
+      "responses": [
+        "Brand: Gini and Jony, Price: INR 649, Gender: Boys, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-101",
+      "patterns": [
+        "PARFAIT Plus Size Beige Solid Underwired Lightly Padded Plunge Bra 2801",
+        "Beige solid medium-coverage Plunge bra Lightly Padded and Underwired seamless cups Regular straps and back closure Back style: Regular Feature: All Day Comfort"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 1189, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-102",
+      "patterns": [
+        "Parx Men Blue Slim Fit Checked Casual Shirt",
+        "Blue checked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 839, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-103",
+      "patterns": [
+        "Parx Men Black & Red Slim Fit Checked Casual Shirt",
+        "Black and red checked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 577, Gender: Men, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-104",
+      "patterns": [
+        "ID Men Tan Brown Formal Leather Oxfords",
+        "A pair of tan brown square-toed formal oxfords, has central lace-upsLeather upperCushioned footbedTextured TPU outsole, has a stacked heelWarranty: 3 months against manufacturing defect onlyWarranty provided by the brand owner / manufacturer"
+      ],
+      "responses": [
+        "Brand: ID, Price: INR 1432, Gender: Men, Color:  Brown"
+      ]
+    },
+    {
+      "tag": "product-105",
+      "patterns": [
+        "Stylo Bug Girls Turquoise Blue A-Line Dress",
+        "Turquoise Blue printed woven A-line dress, has a round neck, sleeveless, concealed zip closure,, flared hem"
+      ],
+      "responses": [
+        "Brand: Stylo Bug, Price: INR 698, Gender: Girls, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-106",
+      "patterns": [
+        "PARFAIT Plus Size Women Black  Red Printed Lace Detail Hipster Brief 2805",
+        "Black and red printed low-rise hipster briefs with lace detail, has an inner elasticated waistband with lace detail, double layered gusset"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 899, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-107",
+      "patterns": [
+        "MIAH Decor Set Of 5 Handcrafted Ceramic Kulladhs",
+        "Set Of 5 Ceramic Kulladhs Pattern: PrintedFinish: GlossyMaterial: CeramicFeatures: Handcrafted"
+      ],
+      "responses": [
+        "Brand: MIAH Decor, Price: INR 865, Gender: Unisex, Color: "
+      ]
+    },
+    {
+      "tag": "product-108",
+      "patterns": [
+        "JEWEL JUNCTION Gold-Toned Geometric Cufflinks",
+        "A pair of gold-toned geometric textured cufflinksComes in a signature JEWEL JUNCTION case"
+      ],
+      "responses": [
+        "Brand: JEWEL JUNCTION, Price: INR 539, Gender: Men, Color:  Gold"
+      ]
+    },
+    {
+      "tag": "product-109",
+      "patterns": [
+        "Tokyo Talkies Women Black & Red Floral Print Fit and Flare Dress",
+        "Black and Red printed woven fit and flare %S, has a round neck, three-quarter sleeves, concealed zip closure, and flared hem"
+      ],
+      "responses": [
+        "Brand: Tokyo Talkies, Price: INR 499, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-110",
+      "patterns": [
+        "SEJ by Nisha Gupta Set of 6 Printed Table Placemats",
+        "Set content: 6 table matsShape: RectangleColour: Mustard yellow and greyPattern: PrintedSuitable For: 6 seater tableMaterial: Cotton"
+      ],
+      "responses": [
+        "Brand: SEJ by Nisha Gupta, Price: INR 899, Gender: Unisex, Color: "
+      ]
+    },
+    {
+      "tag": "product-111",
+      "patterns": [
+        "Sera Women Black Printed Loose Fit Regular Shorts",
+        "Black and pink printed above knee length mid-rise-rise regular shorts, has two pockets"
+      ],
+      "responses": [
+        "Brand: Sera, Price: INR 547, Gender: Women, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-112",
+      "patterns": [
+        "Gini and Jony Boys Black & Grey Embroidered Regular Fit Shorts",
+        "Black and grey embroidered, has a partially elasticated waistband, hook and bar closure, 4 pockets"
+      ],
+      "responses": [
+        "Brand: Gini and Jony, Price: INR 839, Gender: Boys, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-113",
+      "patterns": [
+        "AccessHer Gold-Plated & Black Multistrand Head Chain",
+        "Gold-plated and black multistranded head chain Secured with insert closure"
+      ],
+      "responses": [
+        "Brand: AccessHer, Price: INR 559, Gender: Women, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-114",
+      "patterns": [
+        "Bvlgari Women Splendida Iris D'Or Eau De Parfum 100 ml",
+        "NotesTop notes: Violet Leaves absolute, HeliotropeHeart notes: Orris abs, Mimosa absBase notes: Tonka beans, Heart of Vetiver, Sandalwood ess"
+      ],
+      "responses": [
+        "Brand: Bvlgari, Price: INR 10950, Gender: Women, Color: "
+      ]
+    },
+    {
+      "tag": "product-115",
+      "patterns": [
+        "ahilya Sterling Silver Statement Ring",
+        "Sterling silver ring, has a circular detail with\u00c2\u00a0multiple teardrop-shaped patterns"
+      ],
+      "responses": [
+        "Brand: ahilya, Price: INR 3875, Gender: Women, Color:  Silver"
+      ]
+    },
+    {
+      "tag": "product-116",
+      "patterns": [
+        "SPYKAR Women Blue Alexa Super Skinny Fit High-Rise Clean Look Stretchable Cropped Jeans",
+        "Blue medium wash 5-pocket high-rise cropped jeans, clean look, light fade, has a button and zip closure, and waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: SPYKAR, Price: INR 1214, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-117",
+      "patterns": [
+        "FIDO DIDO Men Grey & Black Printed Colourblocked Polo Collar T-shirt",
+        "Black and grey colourblocked printed T-shirt, has a round neck, short sleeves"
+      ],
+      "responses": [
+        "Brand: FIDO DIDO, Price: INR 599, Gender: Men, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-118",
+      "patterns": [
+        "Parx Men Pink Slim Fit Solid Casual Shirt",
+        "Pink solid casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 739, Gender: Men, Color:  Pink"
+      ]
+    },
+    {
+      "tag": "product-119",
+      "patterns": [
+        "Parx Men Navy Blue Slim Fit Printed Casual Shirt",
+        "Navy Blue printed casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 739, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-120",
+      "patterns": [
+        "Sera Women White Self Design Top",
+        "White self-design knitted regular  top, has a round neck, sleeveless, and concealed zip closure"
+      ],
+      "responses": [
+        "Brand: Sera, Price: INR 714, Gender: Women, Color:  White"
+      ]
+    },
+    {
+      "tag": "product-121",
+      "patterns": [
+        "Bvlgari Women Omnia Crystalline Eau De Toilette 40 ml",
+        "NotesTop notes: Airy Bamboo and Exotic Asian Fruit NashiHeart notes: Lotus BlossomBase notes: Elegant Woodsy"
+      ],
+      "responses": [
+        "Brand: Bvlgari, Price: INR 5650, Gender: Women, Color: "
+      ]
+    },
+    {
+      "tag": "product-122",
+      "patterns": [
+        "ID Men Grey Solid Thong Flip-Flops",
+        "A pair of grey solid flip flopsSynthetic upper materialCushioned footbedPatterned synthetic outsoleWarranty: 3 monthsWarranty provided by brand/manufacturer"
+      ],
+      "responses": [
+        "Brand: ID, Price: INR 1685, Gender: Men, Color:  Grey"
+      ]
+    },
+    {
+      "tag": "product-123",
+      "patterns": [
+        "JEWEL JUNCTION Silver-Toned Geometric Cufflinks",
+        "A pair of silver-toned geometric solid cufflinksComes in a signature JEWEL JUNCTION case"
+      ],
+      "responses": [
+        "Brand: JEWEL JUNCTION, Price: INR 539, Gender: Men, Color:  Silver"
+      ]
+    },
+    {
+      "tag": "product-124",
+      "patterns": [
+        "DKNY Unisex Gold & White Printed Cabin Trolley Bag",
+        "Gold and white printed cabin trolley bag, secured with a TSA lockOne handle on the top and one on the side, has a trolley with a retractable handle on the top and four corner mounted inline skate wheelsOne main zip compartment, zip lining, two compression straps with click clasps, one zip compartment on the flap with three zip pocketsWarranty: 5 yearsWarranty provided by Brand Owner / Manufacturer"
+      ],
+      "responses": [
+        "Brand: DKNY, Price: INR 14400, Gender: Unisex, Color:  White"
+      ]
+    },
+    {
+      "tag": "product-125",
+      "patterns": [
+        "Parx Men Khaki Slim Fit Solid Regular Trousers",
+        "Khaki solid mid-rise regular trousers, has a button closure, four pockets"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 839, Gender: Men, Color:  Khaki"
+      ]
+    },
+    {
+      "tag": "product-126",
+      "patterns": [
+        "Qraa Men Pack of 2 Face And Beard Wash 100gm each",
+        "What It Is?:Qraa Men Pack of 2 Face And Beard Wash 100gm eachWhat It Does?:It's essential to feel fresh while maintaining the perfect charming look. Qraa's invigorating Face and Beard Wash is formulated with an amazing blend of natural botanicals, vitamins, antioxidants, and cleansers to cleanse your handsome face and your glorious beard without over-drying. Qraa men face and beard wash is a great addition to any men's beard grooming regimen. This ace and Beard Wash leaves beard hair clean, refreshed and soft. This wash is enriched with Olive Oil and a touch of Jojoba Seed Oil to create a rich lather to remove dirt, oil, and impurities while naturally-derived conditioners help maintain shine and moisture. It is gentle on the skin and effective enough to work on a rough, coarse beard, the face wash is enriched with natural ingredients that provide deep cleansing, clear skin, and a soft beard.Features:Hydrates, soothes and helps firm the skinCleanses the beard and face without over-dryingProvides essential nourishing elements to the skin cellsHelps eliminate odour trapped in the beardIngredients:Salicylic Acid, Ginseng Root Extract, Pro-Vitamin B5, Rosemary Leaf Oil"
+      ],
+      "responses": [
+        "Brand: Qraa Men, Price: INR 336, Gender: Men, Color: "
+      ]
+    },
+    {
+      "tag": "product-127",
+      "patterns": [
+        "PARFAIT Plus Size Blue Lace Underwired Lightly Padded Plunge Bra P5351",
+        "Blue lace half-coverage Plunge bra Lightly Padded and Underwired seamless cups Regular straps and back closure Back style: Regular Feature: All Day Comfort"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 1749, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-128",
+      "patterns": [
+        "Lady Lyka Women Peach and Burgundy Pack of 2 Everyday Bras ENTIZER-11-PCH-WHN",
+        "Pack of 2Peach and Burgundy solid medium-coverage Everyday braNon Padded and Non-Wired seamless cupsRegular straps and back closureBack style: RegularFeature: All Day Comfort"
+      ],
+      "responses": [
+        "Brand: Lady Lyka, Price: INR 510, Gender: Women, Color:  Burgundy"
+      ]
+    },
+    {
+      "tag": "product-129",
+      "patterns": [
+        "Difference of Opinion Men Olive Green Printed Round Neck T-shirt",
+        "T-shirt"
+      ],
+      "responses": [
+        "Brand: Difference of Opinion, Price: INR 499, Gender: Men, Color:  Green"
+      ]
+    },
+    {
+      "tag": "product-130",
+      "patterns": [
+        "Michael Kors Women Eau de Toilette 50 ml",
+        "NotesTop Notes: Freesia, incense and chinese osmanthusHeart Notes: Tuberose, lily, peony and orris rootBase Notes:Tahitian vetiver, musk and cashmere wood"
+      ],
+      "responses": [
+        "Brand: Michael Kors, Price: INR 5715, Gender: Women, Color: "
+      ]
+    },
+    {
+      "tag": "product-131",
+      "patterns": [
+        "Homesake Gold-Toned & White Solid Handcrafted Table Lamp with Shade",
+        "Type: Handcrafted Table Lamp with ShadeColour: Gold-Toned and whitePattern: SolidShape: FrustumShade material: FabricBase material: AluminiumBulb Holder Type: E27Switch Type: Toggle ButtonComes with bulb"
+      ],
+      "responses": [
+        "Brand: Homesake, Price: INR 1732, Gender: Unisex, Color:  White"
+      ]
+    },
+    {
+      "tag": "product-132",
+      "patterns": [
+        "ID Men Black Leather Formal Derbys",
+        "A pair of black round-toed formal derbys, has central lace-upsLeather upperCushioned footbedTextured PU outsole, has a stacked heelWarranty: 3 months against manufacturing defect onlyWarranty provided by the brand owner / manufacturer"
+      ],
+      "responses": [
+        "Brand: ID, Price: INR 1627, Gender: Men, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-133",
+      "patterns": [
+        "Soie Brown Underwired Non Padded full coverage Everyday Bra FB-610CRIMSON",
+        "Brown full-coverage Everyday bra\u00c2\u00a0Non Padded and\u00c2\u00a0Flexible\u00c2\u00a0Underwired seamless three layered cupsCushioned front straps with lace\u00c2\u00a0and back closureSandwiched brushed layer for no show apex"
+      ],
+      "responses": [
+        "Brand: Soie, Price: INR 693, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-134",
+      "patterns": [
+        "GAS Women Navy Blue Regular Fit Mid-Rise Clean Look Stretchable Jeans",
+        "Navy Blue dark wash 5-pocket mid-rise jeans, clean look, no fade, has a button and zip closure, and waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: GAS, Price: INR 3595, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-135",
+      "patterns": [
+        "Homesake Gold-Toned & Navy Blue Solid Handcrafted Table Lamp with Shade",
+        "Type: Handcrafted Table Lamp with ShadeColour: Gold-Toned and navy bluePattern: SolidShape: FrustumShade material: FabricBase material: AluminiumBulb Holder Type: E27Switch Type: Toggle ButtonComes with bulb"
+      ],
+      "responses": [
+        "Brand: Homesake, Price: INR 1890, Gender: Unisex, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-136",
+      "patterns": [
+        "HIGHLANDER Men Navy Blue & Grey Slim Fit Striped Regular Trousers",
+        "Navy Blue and grey striped mid-rise regular trousers, has a button closure, four pockets"
+      ],
+      "responses": [
+        "Brand: HIGHLANDER, Price: INR 1299, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-137",
+      "patterns": [
+        "WITH Men Black Slim Fit Solid Casual Shirt",
+        "Black solid casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: WITH, Price: INR 684, Gender: Men, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-138",
+      "patterns": [
+        "ID Men Black Leather Formal Derbys",
+        "A pair of black round-toed formal derbys, has central lace-upsLeather upper, has a textured detailCushioned footbedTextured PU outsole, has a stacked heelWarranty: 3 months against manufacturing defect onlyWarranty provided by the brand owner / manufacturer"
+      ],
+      "responses": [
+        "Brand: ID, Price: INR 2685, Gender: Men, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-139",
+      "patterns": [
+        "SPYKAR Women White Alexa Super Skinny Fit High-Rise Clean Look Stretchable Ankle Jeans",
+        "White light wash 5-pocket high-rise jeans, clean look, no fade, has a button and zip closure, and waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: SPYKAR, Price: INR 1999, Gender: Women, Color:  White"
+      ]
+    },
+    {
+      "tag": "product-140",
+      "patterns": [
+        "ZUSH Plus Size Women Black Regular Fit Mid-Rise Clean Look Jeans",
+        "Black dark wash five-pocket mid-rise jeans, clean look with heavy fade, has a button and zip closure, waistband with belt loops"
+      ],
+      "responses": [
+        "Brand: ZUSH, Price: INR 1299, Gender: Women, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-141",
+      "patterns": [
+        "Story@home Mustard Floral 210 TC Cotton 1 King Bedsheet with 2 Pillow Covers",
+        "Set content: 1 King bedsheet with 2 pillow coversQuality: SuperfineThread count: 210Colour: MustardPattern: Floral"
+      ],
+      "responses": [
+        "Brand: Story@home, Price: INR 1199, Gender: Unisex, Color:  Mustard"
+      ]
+    },
+    {
+      "tag": "product-142",
+      "patterns": [
+        "DKNY Unisex Gold & White Printed Large Trolley Bag",
+        "Gold and white printed large trolley bag, secured with a TSA lockOne handle on the top and one on the side, has a trolley with a retractable handle on the top and four corner mounted inline skate wheelsOne main zip compartment, zip lining , two compression straps with click clasps, one zip compartment on the flap with three zip pocketsWarranty: 5 yearsWarranty provided by Brand Owner / Manufacturer"
+      ],
+      "responses": [
+        "Brand: DKNY, Price: INR 16225, Gender: Unisex, Color:  White"
+      ]
+    },
+    {
+      "tag": "product-143",
+      "patterns": [
+        "Campus Sutra Men Green & Navy Blue Regular Fit Checked Casual Shirt",
+        "Green and navy blue checked casual shirt, has a spread collar, long sleeves, button placket, curved hem, and 1 patch pocket"
+      ],
+      "responses": [
+        "Brand: Campus Sutra, Price: INR 511, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-144",
+      "patterns": [
+        "Campus Sutra Men Navy & Grey Melange Standard Regular Fit Colourblocked Casual Shirt",
+        "Navy blue and grey melange colourblocked casual shirt, has a mandarin collar, long sleeves, button placket, and curved hem"
+      ],
+      "responses": [
+        "Brand: Campus Sutra, Price: INR 1299, Gender: Men, Color:  Grey"
+      ]
+    },
+    {
+      "tag": "product-145",
+      "patterns": [
+        "Parx Men Blue Slim Fit Checked Casual Shirt",
+        "Blue checked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 699, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-146",
+      "patterns": [
+        "JBN Creation Boys Maroon & Brown Sherwani Set",
+        "Maroon and brown sherwaniMaroon woven design sherwani, has a mandarin collar, a full button placket, a welt pocket, multipple slitsComes with a pocket squareA pair of brown mid-rise pyjama with gathers and pleats, has an elasticated waistband"
+      ],
+      "responses": [
+        "Brand: JBN Creation, Price: INR 1154, Gender: Boys, Color:  Brown"
+      ]
+    },
+    {
+      "tag": "product-147",
+      "patterns": [
+        "U.S. Polo Assn. Kids Boys Navy Hooded Sweatshirt",
+        "Navy sweatshirt with applique', has an attached hood with drawstring \nfastening, a full press-button placket with a concealed full zip closure\n on the front, long sleeves with elbow patches, four pockets, and an \ninner fleece lining"
+      ],
+      "responses": [
+        "Brand: U.S. Polo Assn. Kids, Price: INR 1234, Gender: Boys, Color:  Navy"
+      ]
+    },
+    {
+      "tag": "product-148",
+      "patterns": [
+        "Bvlgari Women Omnia Paraiba Eau De Toilette Perfume 65 ml",
+        "Bvlgari Omnia Paraiba Eau De Toilette captures the myriad scents of floral, fruity and tropical notes. Features: Top notes: passion fruit, bitter orangeHeart notes: Passion flower and Brazilian gardeniaBase notes: etiver and Cocoa."
+      ],
+      "responses": [
+        "Brand: Bvlgari, Price: INR 7000, Gender: Women, Color: "
+      ]
+    },
+    {
+      "tag": "product-149",
+      "patterns": [
+        "PARFAIT Plus Size Black Solid Underwired Lightly Padded Everyday Bra P5011",
+        "Black solid medium-coverage everyday bra with lace detailLightly padded and underwired seamless cupsMultiway straps and back closureBack style: RegularFeature: Side Bone"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 1819, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-150",
+      "patterns": [
+        "PARFAIT Plus Size Beige Self Design Underwired Non Padded Minimizer Bra P5272",
+        "Beige self design full-coverage Minimizer braNon Padded and Underwired cut and sew cupsRegular straps and back closureBack style: RegularFeature: All Day Comfort"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 1749, Gender: Women, Color:  Red"
+      ]
+    },
+    {
+      "tag": "product-151",
+      "patterns": [
+        "JEWEL JUNCTION Silver-Toned Geometric Cufflinks",
+        "A pair of silver-toned geometric solid cufflinksComes in a signature JEWEL JUNCTION case"
+      ],
+      "responses": [
+        "Brand: JEWEL JUNCTION, Price: INR 539, Gender: Men, Color:  Silver"
+      ]
+    },
+    {
+      "tag": "product-152",
+      "patterns": [
+        "DKNY Unisex Black Large Trolley Bag",
+        "Black textured large trolley bag, secured with a TSA lockOne handle on the top and one on the side, has a trolley with a retractable handle on the top and four corner mounted inline skate wheelsOne main zip compartment, an inner mesh zip compartment, two compression straps with click clasps and one zip compartment on the flap with a zip pocketWarranty: 5 yearsWarranty provided by Brand Owner / Manufacturer"
+      ],
+      "responses": [
+        "Brand: DKNY, Price: INR 13995, Gender: Unisex, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-153",
+      "patterns": [
+        "DressBerry Off-White Sequinned Top",
+        "Off-white top, has a round neck, short sleeves, sequinned detail along the bodice, ruffled detail along the curved hem"
+      ],
+      "responses": [
+        "Brand: DressBerry, Price: INR 699, Gender: Women, Color:  White"
+      ]
+    },
+    {
+      "tag": "product-154",
+      "patterns": [
+        "Parx Men Blue Slim Fit Checked Casual Shirt",
+        "Blue checked casual shirt, has a spread collar, long sleeves, button placket,  curved hem, one patch pocket"
+      ],
+      "responses": [
+        "Brand: Parx, Price: INR 734, Gender: Men, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-155",
+      "patterns": [
+        "BuckleUp Women Blue Textured Belt",
+        "Blue textured beltSecured with a tang closureWarranty: 1 monthWarranty provided by brand/manufacturer"
+      ],
+      "responses": [
+        "Brand: BuckleUp, Price: INR 449, Gender: Women, Color: Blue"
+      ]
+    },
+    {
+      "tag": "product-156",
+      "patterns": [
+        "Gini and Jony Boys Black & White Regular Fit Printed Trousers",
+        "Black and white printed mid-rise trousers, hook and bar closure, and 4 pockets"
+      ],
+      "responses": [
+        "Brand: Gini and Jony, Price: INR 1049, Gender: Boys, Color:  Black"
+      ]
+    },
+    {
+      "tag": "product-157",
+      "patterns": [
+        "PARFAIT Plus Size Women Lavender Lace Boy Shorts 2805",
+        "Lavender lace low-rise boy shorts, has an inner elasticated waistband with bow detailing, double layered gusset"
+      ],
+      "responses": [
+        "Brand: PARFAIT, Price: INR 899, Gender: Women, Color:  Lavender"
+      ]
+    },
+    {
+      "tag": "product-158",
+      "patterns": [
+        "Bvlgari Goldea Women The Roman Night Eau De Parfum 75 ml",
+        "The Roman Night Eau De Parfum"
+      ],
+      "responses": [
+        "Brand: Bvlgari, Price: INR 9750, Gender: Women, Color:  Gold"
+      ]
+    }
+   ]
+}
